@@ -1,0 +1,75 @@
+nav{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  background-color:yellowgreen;
+  align-items: center;
+  padding: 10px;
+  height: 80px;
+
+}
+
+.name{
+  margin-left: 550px;
+  margin-top: 5px;
+  line-height: 20px;
+
+}
+.icons{
+  margin-left: 300px;
+  
+}
+
+.font-link {
+font-family: 'Cairo';font-size: 22px;
+    }
+
+.logo{
+font-family: 'Cairo';font-size: 22px;
+  font-size: 30px;
+  margin-top: 20px;
+  color: black;
+}
+ul {
+  list-style-type: none;
+
+
+  overflow: hidden;
+  background-color:yellowgreen;
+}
+
+li {
+  float: left;
+  margin-left: 20px;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+li :hover {
+  background-color: rgba(12, 227, 230, 0.275);
+  
+}
+nav div h2{
+font-family: 'Cairo';font-size: 22px;
+  font-size: 40px;
+  color: black;
+  font-weight:900 ;
+  margin-top: 30px;
+}
+
+nav div h3{
+font-family: 'Cairo';font-size: 22px;
+  font-size: 20px;
+  margin-left: 30px;
+  color: black;
+}
+
+.Eliteicon{
+  width:30px;
+  height: 30px;
+}

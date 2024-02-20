@@ -1,0 +1,95 @@
+
+body{
+
+  background: url(Components/assets/b.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+.Card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 300px;
+  height: 500px;
+  margin-top: 50px;
+  margin-left: 150px;
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition: transform 0.5s;
+  float:left;
+  border-radius: 10px;
+  background-image: linear-gradient(rgba(0, 100, 0, 0.555),rgba(0, 0, 0, 0.664) );
+  
+}
+
+.Card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+img{
+position: relative;
+width: 100%;
+height: 250px;
+border-radius: 20px;
+}
+.dropbtn {
+background-color: #4CAF50;
+color: white;
+padding: 16px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+}
+
+div{
+font-size: 10px;
+line-height: 8px;
+}
+.Card {
+transition: transform .2s;
+color: white;
+font-weight: bold;
+
+}
+
+.Card:hover {
+-ms-transform: scale(1.3); /* IE 9 */
+-webkit-transform: scale(1.3); /* Safari 3-8 */
+transform: scale(1.3); 
+}
+.lab{
+margin-top: 5px;
+font-family: 'Cairo';font-size: 22px;
+font-size: 20px;
+line-height: 30px;
+}
+.bc{
+float: right;
+
+font-size: 20px;
+text-transform: uppercase;
+}
+.mc{
+font-size: 20px;
+margin-top: 15px;
+text-transform: uppercase;
+}
+form{
+margin-top: 20px; 
+
+}
+select{
+background-color: rgba(0, 0, 0, 0.684);
+color: greenyellow;
+width: 300px;
+height: 50px;
+border-radius: 10px;
+border: 2px solid yellowgreen;
+font-family: 'Cairo';font-size: 22px;
+font-size: 25px;
+font-weight: bold;
+}

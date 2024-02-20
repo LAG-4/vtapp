@@ -1,0 +1,61 @@
+
+body{
+
+    background: url(assets/stadium.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    
+}
+.spon{
+    float: right;
+    margin-right: 500px;
+    border: 3px solid #0aacc2;
+    padding: 5px;
+    width: 300px;
+    background-image: linear-gradient(rgba(0, 100, 0, 0.555),rgba(0, 0, 0, 0.664) );
+    margin-left: 900px;
+    margin-top: 70px;
+    color: greenyellow;
+}
+.spon::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.clearfix{
+        border: 3px solid #0aacc2;
+        padding: 5px;
+        width: 500px;
+        background-image: linear-gradient(rgba(0, 100, 0, 0.555),rgba(0, 0, 0, 0.664) );
+        margin-left: 50px;
+        margin-top: 50px;
+        height: 350px;
+}
+.text{
+    font-family: 'Cairo';
+    font-size: 20px;
+    color: greenyellow;
+   
+}
+.VideoTag{
+    height: 350px;
+    width: auto;
+    float: right;
+    margin-top: 10px;
+    margin-right: 200px;
+    border: 3px solid #0aacc2;
+}
+
+img{
+    height: 50px;
+    width:auto;
+    
+}
